@@ -21,7 +21,6 @@ public class Comment {
 
     private Date time;
 
-    @ManyToOne(cascade = CascadeType.PERSIST)
-    @ToString.Exclude
+    @ManyToOne
     private User commentBy;
 }

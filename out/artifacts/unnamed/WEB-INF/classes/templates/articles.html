@@ -1,0 +1,74 @@
+<!--<!DOCTYPE html>-->
+<!--<html lang="en" xmlns:th="http://www.thymeleaf.org">-->
+<!--<head>-->
+<!--    <meta charset="UTF-8">-->
+<!--    <title>Articles</title>-->
+<!--</head>-->
+<!--<body>-->
+<!--<div th:replace="fragments :: navbar"></div>-->
+<!--<br>-->
+<!--<br>-->
+<!--<table>-->
+<!--    <thead>-->
+<!--    <tr>-->
+<!--        <th>Title</th>-->
+<!--        <th>Author</th>-->
+<!--        <th>Like</th>-->
+<!--        <th>Published date</th>-->
+<!--        <th>Read</th>-->
+<!--    </tr>-->
+<!--    </thead>-->
+<!--    <tbody>-->
+<!--    <th:block th:each="article : ${articlesList}">-->
+<!--        <tr>-->
+<!--            <td th:text="${article.title}"></td>-->
+<!--            <td th:text="${article.author.username}"></td>-->
+<!--            <td th:text="${article.like}"></td>-->
+<!--            <td th:text="${article.published}"></td>-->
+<!--            <td><button><a href="/read">Read</a></button>-->
+<!--            </td>-->
+<!--        </tr>-->
+<!--    </th:block>-->
+<!--    </tbody>-->
+<!--</table>-->
+<!--</body>-->
+<!--</html>-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Articles</title>
+    <link rel="stylesheet" href="../static/css/articles.css">
+</head>
+<body>
+<div th:replace="fragments :: navbar"></div>
+<h2>Articles</h2>
+<table>
+    <thead>
+    <tr>
+        <th>Title</th>
+        <th>Author</th>
+        <th>Published date</th>
+        <th>Like</th>
+        <th>Read</th>
+    </tr>
+    </thead>
+    <tbody>
+    <th:block th:each="article : ${articlesList}">
+        <tr>
+            <td th:text="${article.title}"></td>
+            <td th:text="${article.author.username}"></td>
+            <td th:text="${article.published}"></td>
+            <td th:text="${article.likes}"></td>
+            <td>
+                <a href="/read"><button>Read</button></a>
+            </td>
+        </tr>
+    </th:block>
+    </tbody>
+</table>
+
+</body>
+</html>
