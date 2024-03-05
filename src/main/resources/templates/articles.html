@@ -35,7 +35,7 @@
 <!--</html>-->
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -63,7 +63,7 @@
             <td th:text="${article.published}"></td>
             <td th:text="${article.likes}"></td>
             <td>
-                <a href="/read{id}"><button>Read</button></a>
+                <a th:href="@{/read/{id}(id=${article.id})}"><button>Read</button></a>
             </td>
         </tr>
     </th:block>
