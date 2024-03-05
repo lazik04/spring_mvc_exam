@@ -3,6 +3,7 @@ package uz.pdp.dao;
 import jakarta.transaction.Transactional;
 import lombok.RequiredArgsConstructor;
 import org.hibernate.SessionFactory;
+import org.hibernate.query.Query;
 import org.springframework.stereotype.Repository;
 import uz.pdp.domain.User;
 
@@ -23,10 +24,9 @@ public class UserDao {
                 .uniqueResult();
     }
 
-    public User save(User user) {
+    public void save(User user) {
         session.getCurrentSession()
                 .persist(user);
-        return user;
     }
 
     public User update(User user){

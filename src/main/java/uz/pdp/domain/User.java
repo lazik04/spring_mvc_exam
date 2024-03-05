@@ -18,6 +18,4 @@ public class User {
     private Long id;
     private String username;
     private String password;
-    @OneToMany(mappedBy = "commentBy", cascade = CascadeType.PERSIST)
-    private List<Comment> comments;
 }
