@@ -43,6 +43,13 @@ public class ArticlesController {
         articleDao.addArticle(article);
         return "add_article";
     }
+    @GetMapping("/read/{id}")
+    public ModelAndView showArticle(ModelAndView modelAndView, @PathVariable("id") Long id) {
+        Article article = sessionFactory.getCurrentSession().get(Article.class, id);
+        modelAndView.addObject("content", article);
+        modelAndView.setViewName("showContent");
+        return modelAndView;
+    }
 
     @GetMapping("/read/{id}")
     public ModelAndView addDeveloper(ModelAndView modelAndView, @PathVariable("id") Long id) {
