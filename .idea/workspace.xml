@@ -10,45 +10,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="148b8ac1-f96e-4afe-a075-193d54897981" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/uz/pdp/controller/ArticlesController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/uz/pdp/dao/ArticleDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/uz/pdp/domain/Article.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/add_article.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/articles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/about.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/add_article.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/articles.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/unnamed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/unnamed.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/unnamed/WEB-INF/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/unnamed/WEB-INF/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/unnamed/WEB-INF/classes/templates/fragments.html" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/unnamed/WEB-INF/classes/templates/fragments.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/unnamed/WEB-INF/classes/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/unnamed/WEB-INF/classes/templates/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/unnamed/WEB-INF/classes/templates/logout.html" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/unnamed/WEB-INF/classes/templates/logout.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/unnamed/WEB-INF/classes/uz/pdp/config/sercurity/SecurityConfiguration.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/unnamed/WEB-INF/classes/uz/pdp/config/sercurity/SecurityConfiguration.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/unnamed/WEB-INF/classes/uz/pdp/config/sercurity/UserContext$UserContextBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/unnamed/WEB-INF/classes/uz/pdp/config/sercurity/UserContext$UserContextBuilder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/unnamed/WEB-INF/classes/uz/pdp/config/sercurity/UserContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/unnamed/WEB-INF/classes/uz/pdp/config/sercurity/UserContext.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/unnamed/WEB-INF/classes/uz/pdp/config/sercurity/UserDetailsServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/unnamed/WEB-INF/classes/uz/pdp/config/sercurity/UserDetailsServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/unnamed/WEB-INF/classes/uz/pdp/controller/HomeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/unnamed/WEB-INF/classes/uz/pdp/controller/HomeController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/read.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/3b8294a1-32e9-439a-8627-e0b3b06c6603.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/3b8294a1-32e9-439a-8627-e0b3b06c6603.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/60f7bd92-09d1-4059-834f-770043a10b42.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/60f7bd92-09d1-4059-834f-770043a10b42/storage_v2/_src_/database/web_project.Limb0w.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/60f7bd92-09d1-4059-834f-770043a10b42/storage_v2/_src_/database/web_project.Limb0w/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/60f7bd92-09d1-4059-834f-770043a10b42/storage_v2/_src_/database/web_project.Limb0w/schema/pg_catalog.0S1ZNQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/60f7bd92-09d1-4059-834f-770043a10b42/storage_v2/_src_/database/web_project.Limb0w/schema/public.abK9xQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/unnamed/WEB-INF/classes/templates/articles.html" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/unnamed/WEB-INF/classes/templates/articles.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/unnamed/WEB-INF/classes/uz/pdp/controller/ArticlesController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/unnamed/WEB-INF/classes/uz/pdp/controller/ArticlesController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/unnamed/WEB-INF/classes/uz/pdp/dao/ArticleDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/unnamed/WEB-INF/classes/uz/pdp/dao/ArticleDao.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/unnamed/WEB-INF/classes/uz/pdp/dao/UserDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/unnamed/WEB-INF/classes/uz/pdp/dao/UserDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/unnamed/WEB-INF/classes/uz/pdp/domain/Comment$CommentBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/unnamed/WEB-INF/classes/uz/pdp/domain/Comment$CommentBuilder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/unnamed/WEB-INF/classes/uz/pdp/domain/Comment.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/unnamed/WEB-INF/classes/uz/pdp/domain/Comment.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/unnamed/WEB-INF/classes/uz/pdp/domain/User$UserBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/unnamed/WEB-INF/classes/uz/pdp/domain/User$UserBuilder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/unnamed/WEB-INF/classes/uz/pdp/domain/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/unnamed/WEB-INF/classes/uz/pdp/domain/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/unnamed/WEB-INF/classes/uz/pdp/dto/UserSignUpDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/unnamed/WEB-INF/classes/uz/pdp/dto/UserSignUpDto.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/unnamed/WEB-INF/classes/uz/pdp/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/unnamed/WEB-INF/classes/uz/pdp/service/UserService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/uz/pdp/config/sercurity/SecurityConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/uz/pdp/config/sercurity/SecurityConfiguration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/uz/pdp/controller/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/uz/pdp/controller/HomeController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/uz/pdp/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/uz/pdp/dao/UserDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/uz/pdp/domain/Comment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/uz/pdp/domain/Comment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/uz/pdp/domain/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/uz/pdp/domain/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/fragments.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/fragments.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/logout.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/logout.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/uz/pdp/controller/ArticlesController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/uz/pdp/controller/ArticlesController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/uz/pdp/dao/ArticleDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/uz/pdp/dao/ArticleDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/articles.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/articles.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,8 +34,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="CSS File" />
+        <option value="Class" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -73,9 +50,9 @@
     <option name="FILTER_DEBUG" value="true" />
     <option name="CUSTOM_FILTER" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 3
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="2dDknqDv4Vhe4BTOF4p7A2rcLHh" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -83,14 +60,15 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Main.executor": "Run",
     "DefaultHtmlFileTemplate": "HTML File",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Tomcat Server.Tomcat 10.1.18.executor": "Debug",
+    "Tomcat Server.Tomcat 10.1.18.executor": "Run",
     "git-widget-placeholder": "articles",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/lessons/lessons/spring_mvc_exam",
+    "last_opened_file_path": "C:/lessons/lessons/g33_jm7_lesson12",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -108,7 +86,20 @@
     ]
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Tomcat Server.Tomcat 10.1.18">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="uz.pdp.config.Main" />
+      <module name="spring_mvc_exam" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="uz.pdp.config.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Tomcat 10.1.18" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 10.1.18" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
       <option name="OPEN_IN_BROWSER" value="false" />
       <option name="UPDATING_POLICY" value="restart-server" />
@@ -197,6 +188,11 @@
         </option>
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -214,10 +210,23 @@
       <option name="presentableId" value="Default" />
       <updated>1709550206342</updated>
       <workItem from="1709550207494" duration="11343000" />
+      <workItem from="1709684534472" duration="245000" />
+      <workItem from="1709687780559" duration="2359000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
