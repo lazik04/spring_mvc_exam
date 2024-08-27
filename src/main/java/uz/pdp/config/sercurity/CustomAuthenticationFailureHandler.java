@@ -16,3 +16,4 @@ public class CustomAuthenticationFailureHandler implements AuthenticationFailure
         response.sendRedirect("/auth/login?error=%s".formatted(exception.getMessage()));
     }
 }
+ 

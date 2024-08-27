@@ -27,4 +27,14 @@ public class ArticleDao {
     public Article getArticleById(Long id) {
         return session.getCurrentSession().get(Article.class, id);
     }
+    public Long getLikesById(Long id){
+        return session.getCurrentSession().createQuery(
+                        "select likes from Article where id=:id", Long.class)
+                .setParameter("id", id).uniqueResult();
+    }
+    public void setLikesById(Long id){
+        Long likes = getLikesById(id);
+        session.getCurrentSession().createQuery("update Article set likes=:likes where id=:id")
+                .setParameter("likes",likes+1).setParameter("id",id);
+    }
 }

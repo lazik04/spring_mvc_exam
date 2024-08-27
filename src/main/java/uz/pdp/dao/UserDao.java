@@ -18,15 +18,20 @@ public class UserDao {
 
     public User getUserByUsername(final String username) {
         return session.getCurrentSession()
-//                .createQuery("select u from User u where u.name = ?1", User.class)
                 .createNativeQuery("select * from users where username = ?1", User.class)
                 .setParameter(1, username)
                 .uniqueResult();
     }
 
     public void save(User user) {
+        String s = session.getCurrentSession().createQuery(
+                        "select username from User  where username=:username", String.class)
+                .setParameter("username", user.getUsername()).uniqueResult();
+        if(s==null){
         session.getCurrentSession()
                 .persist(user);
+        }
+        throw new RuntimeException("Email already exist");
     }
 
     public User update(User user){

@@ -63,7 +63,7 @@
             <td th:text="${article.published}"></td>
             <td th:text="${article.likes}"></td>
             <td>
-                <a th:href="@{/read/{id}(id=${article.id})}"><button>Read</button></a>
+                <a th:href="@{/articles/read/{id}(id=${article.id})}"><button class="btn">Read</button></a>
             </td>
         </tr>
     </th:block>
@@ -73,6 +73,6 @@
 <br>
 <br>
 <br>
-    <a href="/add/article"><button>Add Article</button> </a>
+    <a href="/add/article"><button class="btn">Add Article</button> </a>
 </body>
 </html>
